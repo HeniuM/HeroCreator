@@ -8,7 +8,7 @@ public class Armorer {
     public void addAbility(Character character){
         character.addProfession("Armorer");
 
-        InventoryReparing reparing = new InvertoryReparing(character.getAbility());
-        character.setAbility(reparing);
+        InventoryRepairing repairing = new InventoryRepairing(character.getAbility());
+        character.setAbility(repairing);
     }
 }

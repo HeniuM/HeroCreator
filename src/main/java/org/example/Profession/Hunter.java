@@ -11,7 +11,7 @@ public class Hunter {
         Stealth stealth = new Stealth(character.getAbility());
         character.setAbility(stealth);
 
-        Shooting shooting = Shooting(character.getAbility());
+        Shooting shooting = new Shooting(character.getAbility());
         character.setAbility(shooting);
     }
 }
